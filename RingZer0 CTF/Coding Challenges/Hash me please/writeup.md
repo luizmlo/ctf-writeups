@@ -13,7 +13,7 @@
 6. Extract only the Flag from it, again, using **bs4.py**
 7. rekt
 
-## The algorithm divided in 4 parts:
+## The algorithm divided in 3 parts:
 
 ### 1.
 > At this first function, we're already on the 3rd step on our goals.
@@ -23,4 +23,12 @@ This __parse_key__ function does the following:
 > * Parses the challenge "password" and returns it
 
 ### 2.
->
+> This second function takes the __parse_key__ output and hashes it using the sha512 algorithm
+![](https://image.prntscr.com/image/QrPQt62TQgm4jdN7mr569w.png)
+
+### 3.
+> This last part takes the hashed key, retrieves the flag page html, parses it and returns only the flag.
+![](https://image.prntscr.com/image/HW0DwIm6QpO59Ft0Qg1_tg.png)
+
+## Done!
+### At this point, you should have the flag on your terminal and it should also be copied to your clipboard. Lit!
