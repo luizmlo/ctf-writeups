@@ -3,7 +3,7 @@ import hashlib
 import requests
 import clipboard
 
-SESSION_COOKIES = {'PHPSESSID':'2p6f9rhfd1n64mpqk3sns4o185'}
+SESSION_COOKIES = {'PHPSESSID':'YOUR-COOKIES'}
 
 def parse_key(COOKIES):
 	source = requests.get('https://ringzer0ctf.com/challenges/13', cookies=COOKIES)
