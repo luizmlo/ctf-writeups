@@ -26,6 +26,6 @@
 	alert("%4undefinedope :(")
 	}
 	```
-		- Tirando os __%6undefined__, temos a flag.
+		- Tirando os **"%6undefined"**, temos a flag.
 	
 #### Flag: **muitobemvcentendedejavascript**
