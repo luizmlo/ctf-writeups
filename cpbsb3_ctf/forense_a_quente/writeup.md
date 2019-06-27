@@ -35,4 +35,4 @@
 	```
 
 
-#### Flag: **arquivo_odt_apagado.odt**
+#### Flag: **F0RS3NS3{arquivo_odt_apagado.odt}**
