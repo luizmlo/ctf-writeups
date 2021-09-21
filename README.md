@@ -5,7 +5,7 @@
   #### Este foi um CTF realizado durante a Campus Party de 2019 em Brasília pela equipe de desenvolvimento da criptomoeda Decred (DCR)
   ![Foto da final](https://i.imgur.com/SCWxJXy.png)
   #### Fiquei em 2º lugar no placar final, faltando somente um desafio para resolver, que teve apenas uma resolução
-  #### Quase os desafios resolvidos tem um Writeup próprio detalhando o desafio e o meu método de solução neste repositório.
+  #### Quase todos os desafios resolvidos tem um Writeup próprio detalhando o desafio e o meu método de solução neste repositório.
   #### Temas abordados nos desafios:
   - Engenharia Reversa
   - Forensics
