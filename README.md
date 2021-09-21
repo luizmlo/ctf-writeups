@@ -1,10 +1,9 @@
 # CTF Writeups - Luiz Mlo
 ### Este é um repositório criado para mostrar CTF's que já participei e minhas soluções e métodos para resolução dos desafios
 
-#
 ## CPBSB3 Decred CTF
-  ![Foto da final](https://i.imgur.com/SCWxJXy.png)
   #### Este foi um CTF realizado durante a Campus Party de 2019 em Brasília pela equipe de desenvolvimento da criptomoeda Decred (DCR)
+  ![Foto da final](https://i.imgur.com/SCWxJXy.png)
   #### Fiquei em 2º lugar no placar final, faltando somente um desafio para resolver, que teve apenas uma resolução
   #### Todos os desafios resolvidos tem um Writeup próprio detalhando o desafio e o meu método de solução neste repositório.
   #### Temas abordados nos desafios:
@@ -17,11 +16,12 @@
 #
 ## CPBSB3 RNP CTF (Rede Nacional de Ensino e Pesquisa)
   #### Este CTF foi realizado também durante a Campus Party 2019, no estande da RNP.
+  ![Foto da final](https://i.imgur.com/BpOR6Kl.png)
   #### Os desafios foram passados no formato de uma máquina virtual de sistema Linux, onde diversas vulnerabilidades poderiam ser aproveitadas para ir resolvendo os desafios, que se não me engano eram 10.
   #### Durante a fase inicial de reconhecimento, eu percebi que a versão do Kernel da máquina alvo era vulnerável a um Exploit muito conhecido e abusado na época, o [DirtyCow (CVE-2016-5195)](https://dirtycow.ninja/).
   #### A vulnerabilidade se aproveita de uma Race Condition durante o mapeamento de memória no momento em que um arquivo é aberto para leitura e possibilita que um usuário sem permissão sobrescreva arquivos que não deveria, abrindo assim possibilidades de escalonamento de privilégios e implantação de backdoors.
-  #### Na prática a utilização deste exploit é simples, e para conseguir privilégios elevados logo de cara no início do CTF, eu baixei e compilei um PoC (Proof-of-concept) em que você sobrescrevia o arquivo alvo com uma string, então eu sobrescrevi o arquivo /etc/passwd criando um novo usuário com privilégios de root, que me levaram ao primeiro 1º lugar no CTF.
-  ![Foto da final](https://i.imgur.com/BpOR6Kl.png)
+  #### Na prática a utilização deste exploit é simples, e para conseguir privilégios elevados logo de cara no início do CTF, eu baixei e compilei um PoC (Proof-of-concept) em que você sobrescrevia o arquivo alvo com uma string, então eu sobrescrevi o arquivo /etc/passwd criando um novo usuário com privilégios de root, que levaram eu e minha equipe ao 1º lugar no CTF.
+
 
 #
 ## PicoCTF 2019
