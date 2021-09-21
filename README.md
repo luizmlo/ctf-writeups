@@ -1,5 +1,5 @@
 # CTF Writeups - Luiz Mlo
-### Este é um repositório criado para mostrar CTF's que já participei e minhas soluções e métodos para resolução dos desafios
+### Este é um repositório criado para mostrar CTF's que já participei, além das minhas soluções e métodos para resolução dos desafios
 
 ## CPBSB3 Decred CTF
   #### Este foi um CTF realizado durante a Campus Party de 2019 em Brasília pela equipe de desenvolvimento da criptomoeda Decred (DCR)
