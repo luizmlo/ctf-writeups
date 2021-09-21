@@ -22,6 +22,12 @@
   #### A vulnerabilidade se aproveita de uma Race Condition durante o mapeamento de memória no momento em que um arquivo é aberto para leitura e possibilita que um usuário sem permissão sobrescreva arquivos que não deveria, abrindo assim possibilidades de escalonamento de privilégios e implantação de backdoors.
   #### Na prática a utilização deste exploit é simples, e para conseguir privilégios elevados logo de cara no início do CTF, eu baixei e compilei um PoC (Proof-of-concept) em que você sobrescrevia o arquivo alvo com uma string, então eu sobrescrevi o arquivo /etc/passwd criando um novo usuário com privilégios de root, que levaram eu e minha equipe ao 1º lugar no CTF.
 
+#
+## Ringzer0 CTF
+  #### Este é um CTF online muito conhecido e que abrange de forma realista uma enorme gama áreas de segurança da informação
+  #### Infelizmente eu escrevi um único Writeup na época em que participei deste CTF, detalhando o desafio e um walkthrough completo do script em python que fiz para a resolução do desafio
+
+  [Ringzer0 Writeup](https://github.com/luizmlo/ctf-writeups/blob/master/ringzer0_ctf/Coding%20Challenges/Hash%20me%20please/writeup.md)
 
 #
 ## PicoCTF 2019
@@ -46,8 +52,3 @@
   - Forensics
     - ![](PicoCTF%202019/Forensics/Solved.png)
 
-## Ringzer0 CTF
-  #### Este é um CTF online muito conhecido e que abrange de forma realista uma enorme gama áreas de segurança da informação
-  #### Infelizmente eu escrevi um único Writeup na época em que participei deste CTF, detalhando o desafio e um walkthrough completo do script em python que fiz para a resolução do desafio
-
-  [Ringzer0 Writeup](https://github.com/luizmlo/ctf-writeups/blob/master/ringzer0_ctf/Coding%20Challenges/Hash%20me%20please/writeup.md)
