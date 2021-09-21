@@ -45,3 +45,9 @@
 
   - Forensics
     - ![](PicoCTF%202019/Forensics/Solved.png)
+
+## Ringzer0 CTF
+  #### Este é um CTF online muito conhecido e que abrange de forma realista uma enorme gama áreas de segurança da informação
+  #### Infelizmente eu escrevi um único Writeup na época em que participei deste CTF, detalhando o desafio e um walkthrough completo do script em python que fiz para a resolução do desafio
+
+  [Ringzer0 Writeup](https://github.com/luizmlo/ctf-writeups/blob/master/ringzer0_ctf/Coding%20Challenges/Hash%20me%20please/writeup.md)
