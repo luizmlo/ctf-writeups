@@ -37,7 +37,7 @@ def parse_flag(flagSource):
 	flag = flagTag[(flagTag.find('FLAG')):flagTag.find('</div>')]
 	return flag
 
-def main():
+if __name__ == "__main__":
 	key = parse_key(SESSION_COOKIES)
 	hashedKey = hash_key(key)
 	flagSource = retrieve_flag_source(hashedKey)
@@ -45,8 +45,3 @@ def main():
 	clipboard.copy(flag)
 	print(flag)
 	print('Flag copied to clipboard!\n')
-
-main()
-
-
-
